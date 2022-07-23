@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/WorkPlace/FPGA
+vcouter10
+!s110 1658586894
+!i10b 1
+!s100 Q`X`6XVaeSOQnW:o4<JZk2
+IYz2:I4Idc5XVX98Ej9NNN3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658586890
+Z2 8S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v
+Z3 FS:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v
+L0 36
+Z4 OL;L;10.7;67
+r1
+!s85 0
+31
+!s108 1658586893.000000
+!s107 S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v|
+Z5 !s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vtop_module
+!s110 1658587701
+!i10b 1
+!s100 n]jH[Cl0eOoX4hoIiZQHz2
+ITaKB5TRn9XT_IZZUM=e:a1
+R1
+R0
+w1658587697
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1658587701.000000
+Z8 !s107 S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v|
+R5
+!i113 0
+R6
+R7
