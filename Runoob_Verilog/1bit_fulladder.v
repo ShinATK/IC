@@ -1,0 +1,39 @@
+module full_adder1(
+    input Ai,Bi,Ci,
+    output So,Co);
+
+    assign So=Ai^Bi^Ci;
+    assign Co=(Ai&Bi)|(Ci&(Ai|Bi));
+
+endmodule
+
+`timescale 1ns/1ns
+module full_adder_tb;
+    reg Ai, Bi, Ci;
+    wire So, Co;
+
+    initial begin
+        {Ai, Bi, Ci} =3'b0;
+        forever begin
+            #10;
+            {Ai, Bi, Ci}={Ai, Bi, Ci}+1'b1;
+        end
+    end
+
+    full_adder1 u_adder(
+        .Ai (Ai),
+        .Bi (Bi),
+        .Ci (Ci),
+        .So (So),
+        .Co (Co));
+
+    initial begin
+        forever begin
+            #100;
+            //$display("---gyc---%d", $time);
+            if($time >= 1000)begin
+                $finish;
+            end
+        end
+    end
+endmodule

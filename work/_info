@@ -8,45 +8,138 @@ z2
 !i10f 100
 cModel Technology
 Z0 dS:/WorkPlace/FPGA
-vcouter10
-!s110 1658586894
-!i10b 1
-!s100 Q`X`6XVaeSOQnW:o4<JZk2
-IYz2:I4Idc5XVX98Ej9NNN3
-Z1 VDg1SIo80bB@j0V0VzS_@n1
+T_opt
+!s110 1658652211
+VLC7MN=NO]gZmSCH?IK<nn0
+04 4 4 work test fast 0
+=1-2cf05d7c321c-62dd0632-3a7-b38
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7;67
 R0
-w1658586890
-Z2 8S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v
-Z3 FS:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v
-L0 36
-Z4 OL;L;10.7;67
+T_opt1
+!s110 1658652629
+VMCAoY3:nb:9J4Cod37Tz@1
+04 24 4 work non_blockingAND_blocking fast 0
+=1-2cf05d7c321c-62dd07d5-2fd-2f1c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1658667499
+VJeUK8G;B;LRn:6GW4JD192
+04 21 4 work vending_machine_p3_tb fast 0
+=1-2cf05d7c321c-62dd41e9-35d-1f84
+R1
+R2
+n@_opt2
+R3
+vnon_blockingAND_blocking
+!s110 1658652622
+!i10b 1
+!s100 Bf<ZL_nMTdFdEjL9Fl9f:3
+I<]<X^Mm96gAR@RIL@7U9c3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658652600
+8S:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v
+FS:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v
+L0 3
+Z5 OL;L;10.7;67
 r1
 !s85 0
 31
-!s108 1658586893.000000
-!s107 S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v|
-Z5 !s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v|
+!s108 1658652622.000000
+!s107 S:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v|
+!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v|
 !i113 0
 Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z7 tCvgOpt 0
-vtop_module
-!s110 1658587701
-!i10b 1
-!s100 n]jH[Cl0eOoX4hoIiZQHz2
-ITaKB5TRn9XT_IZZUM=e:a1
-R1
-R0
-w1658587697
 R2
-R3
-L0 1
+nnon_blocking@a@n@d_blocking
+vtest
+!s110 1658652190
+!i10b 1
+!s100 AEXQ`3RNe[XOXJ49KfO1T2
+IBg69DM2POzdb9h4E:gklH2
 R4
+R0
+w1658652183
+8S:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v
+FS:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v
+L0 2
+R5
 r1
 !s85 0
 31
-!s108 1658587701.000000
-Z8 !s107 S:/WorkPlace/FPGA/HDLBits/Circuits/SequentialLogic/Counters/4-digit_decimal_counter.v|
-R5
+!s108 1658652190.000000
+!s107 S:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v|
+!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v|
 !i113 0
 R6
+R2
+vtime_delay_module
+!s110 1658651535
+!i10b 1
+!s100 zjB=GhcojP=7Ck2lcaR^^3
+IGhK1iEHjcTRm52Ck]N[`U3
+R4
+R0
+w1658651457
+8S:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v
+FS:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1658651535.000000
+!s107 S:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v|
+!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v|
+!i113 0
+R6
+R2
+vvending_machine_p3
+Z7 !s110 1658667493
+!i10b 1
+!s100 4KPzd`19m2LOKKOcCcdRN0
+If7K89FW[hXYK3]NgOdYi^2
+R4
+R0
+Z8 w1658667490
+Z9 8S:/WorkPlace/FPGA/Runoob_Verilog/vending-machine.v
+Z10 FS:/WorkPlace/FPGA/Runoob_Verilog/vending-machine.v
+L0 6
+R5
+r1
+!s85 0
+31
+Z11 !s108 1658667493.000000
+Z12 !s107 S:/WorkPlace/FPGA/Runoob_Verilog/vending-machine.v|
+Z13 !s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/vending-machine.v|
+!i113 0
+R6
+R2
+vvending_machine_p3_tb
 R7
+!i10b 1
+!s100 IYfehUcDQRagU2aAZ7`JL3
+IfBJEiG;ez>Vh_2;T;l9Bi0
+R4
+R0
+R8
+R9
+R10
+L0 95
+R5
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R6
+R2
