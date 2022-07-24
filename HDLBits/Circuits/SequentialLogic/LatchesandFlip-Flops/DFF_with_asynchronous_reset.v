@@ -5,7 +5,7 @@ module top_module(
     output [7:0] q
 ); 
     always @(posedge clk, posedge areset)begin
-        if (areset==1)begin q<=8'b0;end
+        if (areset)begin q<=8'b0;end
         else begin q<=d;end
     end
 
