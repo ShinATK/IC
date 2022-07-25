@@ -21,7 +21,7 @@ module vending_machine_p3(
     reg     [2:0]       st_next;
     reg     [2:0]       st_cur;
 
-    //(1)state transfer
+    //(1)state transfer——DFF
     always @(posedge clk or negedge rstn)begin
         if (!rstn) begin
             st_cur <= 'b0;
@@ -85,6 +85,7 @@ module vending_machine_p3(
             sell_r      <=  1'b0;
         end
     end
+
     assign sell     = sell_r;
     assign change   = change_r;
 
