@@ -11,7 +11,7 @@ module test;
     always begin
         #10;
         if ($time >= 1000) begin
-            $finish;
+            $stop;
         end
     end
 endmodule
