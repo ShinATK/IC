@@ -19,15 +19,14 @@ n@_opt
 Z3 OL;O;10.7;67
 R0
 T_opt1
-!s110 1658899016
-VCXDYmED[zIYMamh2K1WI30
+!s110 1659080184
+Vdm@9VQ;=?4LzXo[S`54bl3
 04 2 4 work tb fast 0
-=1-2cf05d7c321c-62e0ca48-19-1cfc
+=1-2cf05d7c321c-62e38df7-3e5-a34
 R1
 R2
 n@_opt1
 R3
-R0
 T_opt2
 !s110 1658899554
 Vg>SC]GDfFO030Y>oo85k01
@@ -107,25 +106,49 @@ R2
 nnon_blocking@a@n@d_blocking
 vtb
 R4
-!s110 1658898998
+!s110 1659080142
 !i10b 1
-!s100 O?7cjQBZa`an84fD49WS:3
-I8<faRQUgQl`XSB4F`P`iT3
+!s100 ?klVUTeODehiDNS6SFcfH2
+I5on`kDo4UQ964oMBL?I0g3
 R5
-!s105 datatypes2dinterger_and_byte_sv_unit
+!s105 datatype2dfixedsizearray_sv_unit
 S1
 R0
-w1658898988
-8S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-interger_and_byte.sv
-FS:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-interger_and_byte.sv
-L0 3
+w1659080125
+8S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv
+FS:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv
+L0 2
 R6
 r1
 !s85 0
 31
-!s108 1658898998.000000
-!s107 S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-interger_and_byte.sv|
-!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-interger_and_byte.sv|
+!s108 1659080142.000000
+!s107 S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv|
+!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv|
+!i113 0
+R7
+R2
+vtb_top
+R4
+!s110 1659066328
+!i10b 1
+!s100 N54=SWE^VIZ_dNZ8hVX:i0
+IoG]UJOKYDNJ4UPn^X>I3^1
+R5
+!s105 tb_top_sv_unit
+S1
+R0
+w1659066279
+8S:/WorkPlace/FPGA/ChipVerify/tb_top.sv
+FS:/WorkPlace/FPGA/ChipVerify/tb_top.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1659066328.000000
+!s107 S:/WorkPlace/FPGA/ChipVerify/tb_top.sv|
+!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/ChipVerify/tb_top.sv|
 !i113 0
 R7
 R2
