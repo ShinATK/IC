@@ -9,251 +9,53 @@ z2
 cModel Technology
 Z0 dS:/WorkPlace/FPGA
 T_opt
-!s110 1658899627
-V8ijYAbg_9;N8:EEZg>WOL3
-04 7 4 work byte_tb fast 0
-=1-2cf05d7c321c-62e0ccab-142-1ba8
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+!s110 1659605035
+VZk`fdib[GFGJRYmEbcTek2
+04 6 4 work p2s_tb fast 0
+=1-2cf05d7c321c-62eb902b-243-4070
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
 n@_opt
-Z3 OL;O;10.7;67
-R0
-T_opt1
-!s110 1659080184
-Vdm@9VQ;=?4LzXo[S`54bl3
-04 2 4 work tb fast 0
-=1-2cf05d7c321c-62e38df7-3e5-a34
-R1
-R2
-n@_opt1
-R3
-T_opt2
-!s110 1658899554
-Vg>SC]GDfFO030Y>oo85k01
-04 10 4 work data_minus fast 0
-=1-2cf05d7c321c-62e0cc62-233-1b4
-R1
-R2
-n@_opt2
-R3
-R0
-vbyte_tb
-Z4 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
-!s110 1658899529
+OL;O;10.7;67
+vp2s
+Z2 !s110 1659605027
 !i10b 1
-!s100 >Ti7cCGh[Sk9:UOk[dFiD0
-I:MQ1<eL]2A@DRj2nKeEiD2
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-!s105 datatypes2dbyte_sv_unit
-S1
+!s100 B1M8=YOVS^7`0;]b<JG451
+ImKA7o<a98RglC0RA8`[I=0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1658899516
-8S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-byte.sv
-FS:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-byte.sv
-L0 3
-Z6 OL;L;10.7;67
-r1
-!s85 0
-31
-!s108 1658899529.000000
-!s107 S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-byte.sv|
-!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatypes-byte.sv|
-!i113 0
-Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vdata_minus
-Z8 !s110 1658849463
-!i10b 1
-!s100 ]==eMNI5WFJ3FocZze1HF0
-IBY0`?HC3h2BnTe^oHJImz0
-R5
-R0
-Z9 w1658849459
-Z10 8S:/WorkPlace/FPGA/VL7.v
-Z11 FS:/WorkPlace/FPGA/VL7.v
-L0 2
-R6
-r1
-!s85 0
-31
-Z12 !s108 1658849463.000000
-Z13 !s107 S:/WorkPlace/FPGA/VL7.v|
-Z14 !s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/VL7.v|
-!i113 0
-R7
-R2
-vnon_blockingAND_blocking
-!s110 1658652622
-!i10b 1
-!s100 Bf<ZL_nMTdFdEjL9Fl9f:3
-I<]<X^Mm96gAR@RIL@7U9c3
-R5
-R0
-w1658652600
-8S:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v
-FS:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v
-L0 3
-R6
-r1
-!s85 0
-31
-!s108 1658652622.000000
-!s107 S:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v|
-!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/non_blockingAND_blocking.v|
-!i113 0
-R7
-R2
-nnon_blocking@a@n@d_blocking
-vtb
-R4
-!s110 1659080142
-!i10b 1
-!s100 ?klVUTeODehiDNS6SFcfH2
-I5on`kDo4UQ964oMBL?I0g3
-R5
-!s105 datatype2dfixedsizearray_sv_unit
-S1
-R0
-w1659080125
-8S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv
-FS:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv
-L0 2
-R6
-r1
-!s85 0
-31
-!s108 1659080142.000000
-!s107 S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv|
-!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/ChipVerify/SystemVerilog/datatype-fixedsizearray.sv|
-!i113 0
-R7
-R2
-vtb_top
-R4
-!s110 1659066328
-!i10b 1
-!s100 N54=SWE^VIZ_dNZ8hVX:i0
-IoG]UJOKYDNJ4UPn^X>I3^1
-R5
-!s105 tb_top_sv_unit
-S1
-R0
-w1659066279
-8S:/WorkPlace/FPGA/ChipVerify/tb_top.sv
-FS:/WorkPlace/FPGA/ChipVerify/tb_top.sv
+Z4 w1659605008
+Z5 8S:/WorkPlace/FPGA/Verilog/CodingTest/P2S.v
+Z6 FS:/WorkPlace/FPGA/Verilog/CodingTest/P2S.v
 L0 1
-R6
+Z7 OL;L;10.7;67
 r1
 !s85 0
 31
-!s108 1659066328.000000
-!s107 S:/WorkPlace/FPGA/ChipVerify/tb_top.sv|
-!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/ChipVerify/tb_top.sv|
+Z8 !s108 1659605027.000000
+Z9 !s107 S:/WorkPlace/FPGA/Verilog/CodingTest/P2S.v|
+Z10 !s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Verilog/CodingTest/P2S.v|
 !i113 0
-R7
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vp2s_tb
 R2
-vtest
-!s110 1658652190
 !i10b 1
-!s100 AEXQ`3RNe[XOXJ49KfO1T2
-IBg69DM2POzdb9h4E:gklH2
-R5
+!s100 TMKRURObdAPI38dFjeIWZ3
+IDo]A3Ue^cC;=0a[:k6;WY3
+R3
 R0
-w1658652183
-8S:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v
-FS:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v
-L0 2
+R4
+R5
 R6
+L0 26
+R7
 r1
 !s85 0
 31
-!s108 1658652190.000000
-!s107 S:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v|
-!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/test_100MHz.v|
-!i113 0
-R7
-R2
-vtestbench
 R8
-!i10b 1
-!s100 55Ild<QJD?W;k5MQa;J==1
-I2hB_Og=LFHMe9YY`SRQcN0
-R5
-R0
 R9
 R10
+!i113 0
 R11
-L0 21
-R6
-r1
-!s85 0
-31
-R12
-R13
-R14
-!i113 0
-R7
-R2
-vtime_delay_module
-!s110 1658651535
-!i10b 1
-!s100 zjB=GhcojP=7Ck2lcaR^^3
-IGhK1iEHjcTRm52Ck]N[`U3
-R5
-R0
-w1658651457
-8S:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v
-FS:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v
-L0 3
-R6
-r1
-!s85 0
-31
-!s108 1658651535.000000
-!s107 S:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v|
-!s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/time_delay_module.v|
-!i113 0
-R7
-R2
-vvending_machine_p3
-Z15 !s110 1658735032
-!i10b 1
-!s100 ^A:H?^9bTQPAGSHnjbCj>2
-ISQif51`fHAKQQNH6GjOZD3
-R5
-R0
-w1658735010
-8S:\WorkPlace\FPGA\Runoob_Verilog\vending-machine.v
-FS:\WorkPlace\FPGA\Runoob_Verilog\vending-machine.v
-L0 6
-R6
-r1
-!s85 0
-31
-Z16 !s108 1658735032.000000
-Z17 !s107 S:\WorkPlace\FPGA\Runoob_Verilog\vending-machine.v|S:/WorkPlace/FPGA/Runoob_Verilog/test_vending.v|
-Z18 !s90 -reportprogress|300|-work|work|S:/WorkPlace/FPGA/Runoob_Verilog/test_vending.v|
-!i113 0
-R7
-R2
-vvending_machine_p3_tb
-R15
-!i10b 1
-!s100 ?ZaS2C?KAkL;8C3RT0JGb2
-I5ThTBkTWPLEiX0<:`IVH22
-R5
-R0
-w1658734724
-8S:/WorkPlace/FPGA/Runoob_Verilog/test_vending.v
-FS:/WorkPlace/FPGA/Runoob_Verilog/test_vending.v
-L0 4
-R6
-r1
-!s85 0
-31
-R16
-R17
-R18
-!i113 0
-R7
-R2
+R1
