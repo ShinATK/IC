@@ -1,0 +1,4 @@
+- **CMOS与非门：**![[Pasted image 20220720110147.png]]
+- **CMOS或非门：**![[Pasted image 20220720110506.png]]
+- **小圈推移法（图形化的狄摩根定律）**![[Pasted image 20220720110828.png]]
+- **卡诺图理解**![[Pasted image 20220720111215.png]]
